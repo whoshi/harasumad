@@ -89,11 +89,11 @@ $(function ()
       //sleep(1000);
       // Loading 画像を消す
       //removeLoading();
-      //sendText(inputdata);//To LINE 送信
-      //liff.closeWindow(); 
+      sendText(inputdata);//To LINE 送信
+      liff.closeWindow(); 
      //GAS側Postイベントエントリ
       var url = 'https://script.google.com/macros/s/AKfycbyZCPemsZEO01buDDevsEWfs8LbvTIIJdGBHMyNi-HW9l9sK4E/exec'
-      
+      /*
       liff.getProfile().then
       (profile => 
         {
@@ -134,7 +134,7 @@ $(function ()
      
         }
       );
-      
+      */
       return false;
     });
 });
