@@ -126,7 +126,7 @@ function dispLoading(msg){
 function removeLoading(){
   $("#nowLoading").remove();
 }  
-/ ビジーwaitを使う方法
+// ビジーwaitを使う方法
 function sleep(waitMsec) {
   var startMsec = new Date();
  
