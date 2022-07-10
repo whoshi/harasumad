@@ -47,7 +47,7 @@ function sendMessages(text) {
       "contents": [
         {
           "type": "text",
-          "text": "ロボホンに送信しました",
+          "text": "はらすまダイエット",
           "size": "lg",
           "align": "center",
           "weight": "bold",
