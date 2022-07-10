@@ -86,7 +86,7 @@ $(function ()
 	    
       // Loading 画像を表示
       dispLoading("はらすまダイエットに送信中...");
-      sleep(500);
+    
       // Loading 画像を消す
       removeLoading();
       sendText(inputdata);//To LINE 送信
