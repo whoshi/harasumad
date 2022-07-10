@@ -85,7 +85,9 @@ $(function ()
         
      //GAS側Postイベントエントリ
       var url = 'https://script.google.com/macros/s/AKfycbyZCPemsZEO01buDDevsEWfs8LbvTIIJdGBHMyNi-HW9l9sK4E/exec'
-      
+      sendText(inputdata);//To LINE 送信
+      liff.closeWindow(); 
+      /*
       liff.getProfile().then
       (profile => 
         {
@@ -128,5 +130,6 @@ $(function ()
       );
       
       return false;
+      */
     });
 });
