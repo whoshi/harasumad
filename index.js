@@ -72,8 +72,8 @@ $(function ()
       }
      
       
-      var inputdata = "【発話内容1】" + "\n" + speach1 + "\n" + "【アクション】" + "\n" + robohonaction +  "\n" + "【ソング】" + "\n" + robohonsong;
-      inputdata = inputdata  + "\n" + "【ダンス】" + "\n" + robohondance + "\n"　+ "【発話内容2】" + "\n" + speach2 + "【翻訳】" + "\n" + transrate ;	    
+      var inputdata = "【目標体重】" + "\n" + "60kg" + "\n" + "【今日現在】" + "\n" + "68kg" +  "\n" + "【増減】" + "\n" + "+8kg";
+      inputdata = inputdata  + "\n" + "【ダンス】" + "\n" + "予定より10時間不足" + "\n"　+ "【ダイエット経過時間】" + "\n" + "90日経過" + "【獲得はらすまポイント】" + "\n" + "88ポイント ;	    
       //現在日時取得
       const datecurrent = new Date();
       const nowdate = datecurrent.getFullYear() + "年" + 
@@ -85,9 +85,8 @@ $(function ()
         
      //GAS側Postイベントエントリ
       var url = 'https://script.google.com/macros/s/AKfycbyZCPemsZEO01buDDevsEWfs8LbvTIIJdGBHMyNi-HW9l9sK4E/exec'
-      sendText(inputdata);//To LINE 送信
-      liff.closeWindow(); 
-      /*
+      
+      
       liff.getProfile().then
       (profile => 
         {
@@ -130,6 +129,5 @@ $(function ()
       );
       
       return false;
-      */
     });
 });
