@@ -73,7 +73,7 @@ $(function ()
      
       
       var inputdata = "【目標体重】" + "\n" + "60kg" + "\n" + "【今日現在】" + "\n" + "68kg" +  "\n" + "【増減】" + "\n" + "+8kg";
-      inputdata = inputdata  + "\n" + "【ダンス】" + "\n" + "予定より10時間不足" + "\n"　+ "【ダイエット経過時間】" + "\n" + "90日経過" + "【獲得はらすまポイント】" + "\n" + "88ポイント ;	    
+      inputdata = inputdata  + "\n" + "【ダンス】" + "\n" + "予定より10時間不足" + "\n"　+ "【ダイエット経過時間】" + "\n" + "90日経過" + "【獲得はらすまポイント】" + "\n" + "88ポイント" ;	    
       //現在日時取得
       const datecurrent = new Date();
       const nowdate = datecurrent.getFullYear() + "年" + 
