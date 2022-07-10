@@ -85,15 +85,15 @@ $(function ()
 				datecurrent.getSeconds() + "秒";
 	    
       // Loading 画像を表示
-      dispLoading("はらすまダイエットに送信中...");
-      sleep(1000);
+      //dispLoading("はらすまダイエットに送信中...");
+      //sleep(1000);
       // Loading 画像を消す
-      removeLoading();
-      sendText(inputdata);//To LINE 送信
-      liff.closeWindow(); 
+      //removeLoading();
+      //sendText(inputdata);//To LINE 送信
+      //liff.closeWindow(); 
      //GAS側Postイベントエントリ
       var url = 'https://script.google.com/macros/s/AKfycbyZCPemsZEO01buDDevsEWfs8LbvTIIJdGBHMyNi-HW9l9sK4E/exec'
-      /*
+      
       liff.getProfile().then
       (profile => 
         {
@@ -134,7 +134,7 @@ $(function ()
      
         }
       );
-      */
+      
       return false;
     });
 });
