@@ -105,7 +105,7 @@ $(function ()
                  //スピナー表示
                  //インジケータ表示
                  // Loading 画像を表示
-                 dispLoading("ロボホンに送信中...");
+                 dispLoading("はらすまダイエットに送信中...");
              
                  $.post(url,
                         JSONdata,
