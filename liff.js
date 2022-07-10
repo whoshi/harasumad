@@ -126,3 +126,10 @@ function dispLoading(msg){
 function removeLoading(){
   $("#nowLoading").remove();
 }  
+/ ビジーwaitを使う方法
+function sleep(waitMsec) {
+  var startMsec = new Date();
+ 
+  // 指定ミリ秒間だけループさせる（CPUは常にビジー状態）
+  while (new Date() - startMsec < waitMsec);
+}
